@@ -1,0 +1,30 @@
+@keyframes spin-slow {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card-wrapper {
+  position: relative;
+  padding: 4px; /* Thickness of the border */
+  border-radius: 16px;
+  background: conic-gradient(
+    from 0deg,
+    #ff00cc,
+    #3333ff,
+    #00ffcc,
+    #ffcc00,
+    #ff00cc
+  );
+  animation: spin-slow 8s linear infinite;
+  width: fit-content; /* Adjust as needed */
+}
+
+.card-content {
+  background-color: #111; /* Card background */
+  color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  z-index: 1;
+  position: relative;
+}
