@@ -14,6 +14,7 @@ import Service2 from './Componets/Service2.jsx';
 import AboutUs from './Componets/AboutUs.jsx';
 import Service3 from './Componets/Service3.jsx';
 import Service4 from './Componets/Service4.jsx';
+import Reel from "./Componets/Reel.jsx"
 
 const Home = () => (
   <>
@@ -27,8 +28,7 @@ const Home = () => (
           BlueCS Limited
         </h1>
         <p className="text-gray-300 text-lg">
-          Deliver training programs, convert insights into profit, and build
-          lasting learner loyalty—all under your brand.
+              BlueCS Limted: A Platform for All. From Consultancy Services to all Solutions Your Business Vision Plus BlueCS Limited. Equals New Heights.
         </p>
 
         <button className="bg-blue-600 hover:bg-blue-700 transition px-6 py-3 rounded-xl font-semibold">
@@ -44,10 +44,12 @@ const Home = () => (
 
     <Comp3 />
     <Comp4 />
+    <Reel/>
+     <Service2 />
     <Service />
-    <Service2 />
+      <Service4/>
     <Service3 />
-    <Service4/>
+ 
     <Comp10 />
     <Comp9 />
 
